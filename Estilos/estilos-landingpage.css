@@ -1,0 +1,66 @@
+/* Estilos para hacer la landing page responsive */
+@media (max-width: 768px) {
+    /* Estilos para pantallas más pequeñas */
+    /*body {
+        font-size: 14px;
+    }*/
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Playfair Display', serif;
+    font-family: 'Quicksand', sans-serif;
+    font-size: xx-large;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 20px 0px;
+    flex: 1;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+header {
+    background-color: fffff;
+    padding: 0px 10px 0px;
+    text-align: center;
+    font-weight:900;
+    font-size: larger;
+}
+
+header img {
+    width: 440px;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.buttons a {
+    display: block; /* Cambiado a "block" para ubicar los botones verticalmente */
+    margin: 50px;
+    padding: 30px 150px;
+    background-color: #f5f5f5;
+    color: #333;
+    text-decoration: none;
+    border: 1px solid #333;
+    border-radius: 40px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #17917D;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+    /*width: 100%;*/
+    flex-shrink: 0;
+}
